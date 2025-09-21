@@ -1,0 +1,15 @@
+edad = int (input("que edad tienes"))
+if edad >= 18:
+ print("eres mayor de edad")
+else:
+   print("eres menor de edad")
+
+
+
+
+from datetime import date
+año_nacimiento = int(input("ingresa tu año de nacimiento"))
+año_actual = 2025
+edad = año_actual - año_nacimiento
+print("tienes", edad , " años")
+    
